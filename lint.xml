@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src\anong\v8led\LEDServer.java" />
+    </issue>
+    <issue id="NewApi">
+        <ignore path="src\anong\v8led\MyAccessibilityService.java" />
+    </issue>
+    <issue id="ParserError" severity="ignore">
+        <ignore path="src\anong\v8led\ScreenState.java" />
+    </issue>
+</lint>

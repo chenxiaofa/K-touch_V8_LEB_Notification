@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">V8LED</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">V8LED</string>
+    <string name="missedcall">未接来电提醒</string>
+	<string name="sms">短信提醒</string>
+	<string name="description">V8LED辅助服务，用于监听通知栏状态。</string>
+	<string name="delaylable">闪烁间隔时间（毫秒）</string>
+	<string name="buttontxt">保存设置</string>
+	<string name="isalwaynotic">模式选择</string>
+	<string name="onScreenOn">屏幕开启的时候依然提醒</string>
+</resources>

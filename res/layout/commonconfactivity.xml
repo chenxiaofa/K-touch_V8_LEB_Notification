@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ xmlns:tools="http://schemas.android.com/tools"
+ android:layout_width="fill_parent"
+ android:layout_height="fill_parent"
+ android:orientation="vertical" >
+		<LinearLayout
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:layout_marginBottom="20dip"  >
+	
+		    <TextView
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:text="@string/delaylable" />
+		
+		    <EditText
+		     android:id="@+id/delay"
+		     android:layout_width="fill_parent"
+		     android:layout_height="wrap_content"
+		     android:ems="10"
+		     android:inputType="number" >
+		
+		        <requestFocus />
+		    </EditText>
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="20dip"  >
+		<Switch
+		    android:id="@+id/switch1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/isalwaynotic" />
+		</LinearLayout>
+		
+		<LinearLayout android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="20dip" >
+		<Switch
+		    android:id="@+id/switch2"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="@string/onScreenOn" />
+		</LinearLayout>
+
+
+
+		<LinearLayout android:layout_width="fill_parent"
+         android:layout_height="wrap_content" >
+
+	    		<Button
+	    		    android:id="@+id/button_save"
+	    		    android:layout_width="fill_parent"
+	    		    android:layout_height="wrap_content"
+	    		    android:paddingTop="20dip"
+	    		    android:text="@string/buttontxt" />
+
+		</LinearLayout>
+
+</LinearLayout>
